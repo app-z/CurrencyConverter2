@@ -57,10 +57,7 @@ Code:
                             }
                             progressBar.setVisibility(View.GONE);
                         }
-
-
                     });
-
 ```
 =================
 

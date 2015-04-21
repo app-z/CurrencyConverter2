@@ -183,10 +183,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
                             }
                             progressBar.setVisibility(View.GONE);
                         }
-
-
                     });
-
             break;
 		}
 	}
