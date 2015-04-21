@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/de.keyboardsurfer.android.widget/crouton/1.8.5/f085933fd4fad9693229d105d6d6d01fa90bb599/crouton-1.8.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f085933fd4fad9693229d105d6d6d01fa90bb599">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/crouton-1.8.5-f67d0ee5c12936fb02557ea1b6621f9304b7d26c.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.8.0/a517f29ed06be2b2879524fcd94b6e9b36e2e0b5/retrofit-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/retrofit-1.8.0-0d402136d1506c21fa1b2eb3b91cb61931b4c093.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.1.0/14c2bedd59eccab85f1b8fe1f0f26fad14951b91/okio-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="14c2bedd59eccab85f1b8fe1f0f26fad14951b91">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/okio-1.1.0-c20d3334651c19a65a47a80aac9b3231564efabe.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6007e6145e69c0f5712f09e1726149795e9026d9.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/0.23.0/9c437ce12df38b57fde4e3bb38ef6859f85ff737/rxandroid-0.23.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c437ce12df38b57fde4e3bb38ef6859f85ff737">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/rxandroid-0.23.0-627f76552df13fdfbad2bfe2f63698969b232ace.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/gson-2.3-315c90d838bcf4914b280fb2df357be6bc68bd5b.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.1.0/9b51f7d0c19f179b52beab7cb433f8ba5cf786a4/okhttp-2.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b51f7d0c19f179b52beab7cb433f8ba5cf786a4">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/okhttp-2.1.0-14e672f384548bd83b06ae1533384441b362be25.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/Documents/android-sdk/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-49813b8f7838d2d5458082e484b62c564eecd825.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.1.0/6025b7df8a6a4193138723ef120e7228b6a97024/okhttp-urlconnection-2.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6025b7df8a6a4193138723ef120e7228b6a97024">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.1.0-1f7a20ad44b125b0b1806286807c70ef9c442315.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.9/95af696584f71a2a2c20736f4a97eeadb5700773/rxjava-1.0.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95af696584f71a2a2c20736f4a97eeadb5700773">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/rxjava-1.0.9-11e93db7495b771bce87381720a59ef942855ce1.jar" />
+    </item>
+    <item
+        jar="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/spbmap/AndroidStudioProjects/CurrencyConverter2/app/build/intermediates/pre-dexed/debug/classes-8738f0782542d1207f2b6c8ff761a4bb454a2abb.jar" />
+    </item>
+
+</items>
