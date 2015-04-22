@@ -5,5 +5,4 @@ package net.appz.currencyconverter2;
  */
 public class ConvertCompactResponse {
     float val;
-
 }

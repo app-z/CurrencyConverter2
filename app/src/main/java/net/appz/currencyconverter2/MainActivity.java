@@ -44,7 +44,9 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
 	private ProgressBar progressBar;
 
     private final List<Country> countriesList = new ArrayList<Country>();
-//    private final CompositeSubscription mCompositeSubscription = new CompositeSubscription();
+
+    private Subscription subscriptionCountries;
+    private Subscription subscriptionConvert;
 
     final CurrencyConvertorService currencyConvertorService = new CurrencyConvertorService();
 
@@ -73,7 +75,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
 
 
 
-        final Subscription subscription = currencyConvertorService.fetchCountries()
+        subscriptionCountries = currencyConvertorService.fetchCountries()
             .subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<ListCountryResponse>() {
@@ -93,7 +95,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
                     @Override
                     public void onCompleted() {
                         Crouton.makeText(MainActivity.this,
-                                "Chose country", Style.INFO).show();
+                                "Select country", Style.INFO).show();
                     }
 
                     @Override
@@ -150,7 +152,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
 			+ "_" + countriesList.get(AppHelper.getCountryToIdx(this)).currencyId;
 			progressBar.setVisibility(View.VISIBLE);
 
-            final Subscription subscription = currencyConvertorService.fetchConvert(from_to, "y")
+            subscriptionConvert = currencyConvertorService.fetchConvert(from_to, "y")
                     .subscribeOn(Schedulers.newThread())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(new Subscriber<Map<String, ConvertCompactResponse>>() {
@@ -217,6 +219,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
 
     @Override
     public void onDestroy() {
+        if (subscriptionCountries != null)
+            subscriptionCountries.unsubscribe();
+        if (subscriptionConvert!=null)
+            subscriptionConvert.unsubscribe();
         super.onDestroy();
     }
 
