@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
     private Subscription subscriptionCountries;
     private Subscription subscriptionConvert;
 
-    final CurrencyConvertorService currencyConvertorService = new CurrencyConvertorService();
+    private final CurrencyConvertorService currencyConvertorService = new CurrencyConvertorService();
 
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -194,7 +194,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, On
 	@Override
 	public void onItemSelected(AdapterView<?> parent,
 			View view, int position, long id) {
-		if(countriesList != null){
+		if(countriesList != null && countriesList.size() > 0){
 			switch (parent.getId()) {
 			case R.id.spinnerFrom:
 				textViewFrom.setText(countriesList.get(position).currencyName);
